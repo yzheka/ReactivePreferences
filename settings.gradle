@@ -1,0 +1,2 @@
+include ':app', ':reactivepreferences', ':reactivepreferences-extensions'
+rootProject.name='ReactivePreferences'

@@ -1,5 +1,7 @@
 # ReactivePreferences
 
+[![](https://jitpack.io/v/yzheka/ReactivePreferences.svg)](https://jitpack.io/#yzheka/ReactivePreferences)
+
 * Create preferences:
 ```
 class SomePreferences(...):RxPreferences(...) {

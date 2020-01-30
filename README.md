@@ -29,3 +29,22 @@ Supported data types:
 * string
 * stringSet
 * serializable
+
+To get a Git project into your build:
+
+Step 1. Add the JitPack repository to your build file
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. Add the dependency
+```
+dependencies {
+	implementation "com.github.yzheka.ReactivePreferences:reactivepreferences:$latest_version"
+    implementation "com.github.yzheka.ReactivePreferences:reactivepreferences-extensions:$latest_version" //for Rxjava2 and livedata support
+}
+```

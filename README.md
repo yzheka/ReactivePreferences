@@ -7,7 +7,7 @@
 class SomePreferences(...):RxPreferences(...) {
     val someInt by intPreference()
     val someString by stringPreference()
-    val someEnum by serializablePreference<Test?>(null,null)
+    val someEnum by serializablePreference<Test>(null,Test.TEST1)
     val someSerializable by serializablePreference<Data?>(null,null)
     ...
 }

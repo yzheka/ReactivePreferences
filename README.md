@@ -45,6 +45,6 @@ Step 2. Add the dependency
 ```
 dependencies {
 	implementation "com.github.yzheka.ReactivePreferences:reactivepreferences:$latest_version"
-    implementation "com.github.yzheka.ReactivePreferences:reactivepreferences-extensions:$latest_version" //for Rxjava2 and livedata support
+	implementation "com.github.yzheka.ReactivePreferences:reactivepreferences-extensions:$latest_version" //for Rxjava2 and livedata support
 }
 ```
